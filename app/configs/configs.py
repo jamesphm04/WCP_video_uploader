@@ -1,0 +1,12 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+LOG_DIR = os.getenv("LOG_DIR")
+
+LOGIC1_BASE_URL = os.getenv("LOGIC1_BASE_URL")
+
+WORKFLOW_BASE_URL = os.getenv("WORKFLOW_BASE_URL")
+WORKFLOW_APPLICATION_NAME = os.getenv("WORKFLOW_APPLICATION_NAME")
+WORKFLOW_APPLICATION_SECRET = os.getenv("WORKFLOW_APPLICATION_SECRET")
